@@ -1,31 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
     display: block;
     color: black;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-.container{
+.container {
     width: 100%;
-    height: 1000px;
+    height: 800px;
 
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(bp.png) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(bp.png) no-repeat;
     background-size: cover;
 
     color: white;
 }
 
 
-.header{
+.header {
     width: 100%;
     height: 100px;
 
@@ -33,7 +33,8 @@ li{
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 200px;
     height: 80px;
 
@@ -43,13 +44,14 @@ li{
 
     font-size: 35px;
 }
-.logo:hover{
+
+.logo:hover {
     color: #ff6a6a;
 }
 
 
 
-.menu{
+.menu {
     width: 400px;
     height: 100px;
 
@@ -57,23 +59,26 @@ li{
     justify-content: space-between;
     align-items: center;
 }
-.menu li{
+
+.menu li {
     width: 25%;
     text-align: center;
 
 }
-.menu li a{
+
+.menu li a {
     font-size: 20px;
     color: white;
     font-weight: bold;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: #ff6a6a;
 }
 
 
 
-.main{
+.main {
     width: 1000px;
     height: 600px;
 
@@ -82,20 +87,24 @@ li{
 
     text-align: center;
 }
-.main h1{
+
+.main h1 {
     font-style: 50px;
     margin-bottom: 50px;
 }
-.main h2{
+
+.main h2 {
     font-style: 40px;
 }
-.main h3{
+
+.main h3 {
     font-style: 30px;
     font-weight: normal;
 
     margin-bottom: 50px;
 }
-.main button{
+
+.main button {
     font-style: 30px;
 
     width: 250px;
@@ -108,7 +117,76 @@ li{
     color: white;
     transition: 0.3s;
 }
-.main button:hover{
+
+.main button:hover {
     background-color: white;
     color: black;
+}
+
+.about {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+
+    margin-top: 100px;
+}
+
+.about h2 {
+    font-size: 40px;
+    color: pink;
+}
+
+.about h1 {
+    font-size: 50px;
+}
+
+.about .contents {
+    width: 100%;
+    height: 500px;
+    display: flex;
+
+    margin-top: 50px;
+}
+
+.about .left {
+    width: 400px;
+    height: 500px;
+}
+.about .left img{
+    width: 400px;
+    height: 600px;
+}
+
+
+.about .right {
+    width: 800px;
+    height: 500px;
+
+    padding-left: 50px;
+}
+.about .right h1{
+    font-size: 30px;
+}
+.about .right span{
+    color: #ff6a6a;
+}
+.about .right li{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.fa-youtube{
+    font-size: 50px;
+    color: red;
+    margin-right: 10px;
+}
+.fa-facebook{
+    font-size: 50px;
+    color: #3b5998;
+    margin-right: 10px;
+}
+.fa-instagram{
+    font-size: 50px;
+    color: rgb(224, 143, 224);
+    margin-right: 10px;
 }
