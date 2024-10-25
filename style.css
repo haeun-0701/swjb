@@ -160,9 +160,7 @@ li {
     flex-wrap: wrap;
 
 }
-.about .right h1{
-    font-size: 30px;
-}
+
 .about .right span{
     color: #ff6a6a;
 }
@@ -170,6 +168,9 @@ li {
     display: flex;
     width: 100%;
     margin: 0 auto;
+}
+.about .right ul{
+    font-size: 15px;
 }
 
 
