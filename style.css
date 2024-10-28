@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
+    
 }
 html{
     scroll-behavior: smooth;
@@ -50,7 +51,7 @@ li {
     font-size: 35px;
 }
 .logo:hover {
-    color: #ff6a6a;
+    color: rgb(192, 209, 255);
 }
 
 
@@ -68,12 +69,12 @@ li {
 
 }
 .menu li a {
-    font-size: 20px;
-    color: white;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 .menu li a:hover {
-    color: #ff6a6a;
+    color: #b1dffa;
 }
 
 
@@ -119,27 +120,62 @@ li {
 }
 
 
+
 .about {
     width: 1200px;
-    height: 800px;
+    height: 500px;
     margin: 0 auto;
 
     margin-top: 100px;
+
+    
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 10px;
 }
+.about img{
+    width: 150px;
+    height: 150px;
+
+
+}
+
 .about h2 {
     font-size: 40px;
-    color: pink;
+    color: rgb(192, 209, 255);
 }
 .about h1 {
     font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+.about i{
+    font-size: 24px;
+    margin-bottom: 8px;
+
+    /* display: flex;
+    flex-wrap: nowrap;
+    column-gap: 2rem;
+    width: 100%;
+    max-width: 14rem;
+    margin: 0 auto;
+    opacity: .8; */
 }
 .about .contents {
     width: 100%;
-    height: 500px;
+    
     display: flex;
 
     margin-top: 50px;
+
+    
+/* 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px; */
 }
+/* 
 .about .left {
     width: 400px;
     height: 500px;
@@ -147,10 +183,10 @@ li {
 .about .left img{
     width: 400px;
     height: 600px;
-}
+} */
 .about .right {
-    width: 700px;
-    height: 500px;
+    width: 1500px;
+    
 
     padding-left: 50px;
 
@@ -160,17 +196,26 @@ li {
     flex-wrap: wrap;
 
 }
-
+.about .right ul{
+    display: flex;
+    width: 1500px;
+    
+}
+.about li{
+    width: 250px;
+    
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
 .about .right span{
-    color: #ff6a6a;
+    color: rgb(192, 209, 255);
 }
 .about .right h1{
     display: flex;
     width: 100%;
     margin: 0 auto;
-}
-.about .right ul{
-    font-size: 15px;
 }
 
 
@@ -186,7 +231,7 @@ li {
 }
 .Skills h2{
     font-size: 40px;
-    color: pink;
+    color: rgb(192, 209, 255);
 }
 .Skills h1{
     font-style: 50px;
@@ -210,7 +255,7 @@ li {
     height: 350px;
     font-style: 20px;
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 
     padding: 20px;
 
@@ -221,23 +266,27 @@ li {
     margin-bottom: 20px;
 }
 .Skills i{
-    color: #ff6a6a;
+    color: #8684ff;
     font-size: 40px;
 }
 .Skills .contents li:hover{
-    background-color: #ff6a6a;
-    color: white;
+    background-color: #969696;
+    color: rgb(0, 0, 0);
     border-radius: 15px;
 }
 .Skills .contents li:hover i{
-    color: white;
+    color: rgb(255, 255, 255);
+}
+.Skills img{
+    width: 170px;
+    height: 200px;
 }
 
 
 .bg{
     width: 100%;
     height: 700px;
-    background: url(fr.png) no-repeat;
+    background: url(wd.png) no-repeat;
     background-size: cover;
 
     background-attachment: fixed;
